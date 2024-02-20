@@ -8,6 +8,13 @@ This website showcased implementing a booking application on the Little Lemon We
 
 Please note: the only functionality working on this website besides the design is the Reserve a Table function.
 
+## Features
+
+* View restaurant information including overview, special menu items, and testimonials
+* View available reservation times for a chosen date and party size
+* Make a reservation by selecting a desired time slot and entering contact information
+* Clean UI design
+
 ## Screenshots
 
 Here are some pictures of the application showcasing the Booking functionality.
