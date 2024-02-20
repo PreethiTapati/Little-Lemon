@@ -1,0 +1,159 @@
+.site-footer {
+  background-color: #495E57;
+  color: #FFFFFF;
+  font-size:smaller;
+ margin-top: 20px;
+}
+
+.site-footer .container {
+  grid-template-columns: repeat(4, auto);
+    grid-template-areas: "icon SITE MAP Contact us Connect with us";
+  grid-column-gap: 1.5rem;
+
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem
+}
+
+.site-footer-logo {
+  grid-column: 1;
+  min-width: 6rem;
+  width: 6rem;
+}
+
+.site-footer nav h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem;
+  margin-bottom: 5px;
+}
+
+.site-footer a {
+  color: #FFFFFF;
+  transition: color 0.5s;
+}
+
+.site-footer a:hover, 
+.site-footer a:focus {
+  color: #F4CE14;
+}
+.footer-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.footer-site-map {
+  grid-area: sitemap;
+  align-self: start;
+}
+ /* .site-footer-nav {
+  margin-bottom: auto;
+  text-align: center;
+} */
+
+ /*.site-footer-nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.site-footer-nav li {
+  margin: 5px 0;  
+   text-align: left; 
+}*/
+
+
+.site-footer-nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.site-footer-nav a:hover, 
+.site-footer-nav a:focus {
+  color: #F4CE14;
+} */
+
+.site-footer-contact {
+  margin-bottom: auto;
+}
+
+.site-footer-contact svg {
+  margin-right: 0.5rem;
+}
+
+.site-footer-contact p {
+  margin-bottom: 0.25rem;
+}
+
+.site-footer-social {
+  margin-bottom: auto;
+}
+
+.site-footer-social svg {
+  margin-right: 1rem;
+}
+
+/*-- Media queries ------------------------------------------------------*/
+
+@media (max-width: 927px) {
+.site-footer .container {
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto auto;
+}
+
+.site-footer-social {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 2rem;
+}
+}
+
+@media (max-width: 789px) {
+.site-footer .container {
+  grid-template-columns: auto auto;
+}
+
+.site-footer-contact {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 2rem;
+}
+
+.site-footer-social {
+  grid-column: 2;
+}
+}
+
+@media (max-width: 576px) {
+.site-footer .container {
+  grid-template-columns: auto;
+}
+
+.site-footer-logo {
+  grid-row: 1;
+}
+
+.site-footer-nav {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 2rem;
+}
+
+.site-footer-contact {
+  grid-row: 3;
+}
+
+.site-footer-social {
+  grid-column: 1;
+  grid-row: 4;
+}
+}
