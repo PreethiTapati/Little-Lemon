@@ -1,3 +1,4 @@
+import React from "react";
 import "./About.css";
 import AboutPic1 from "../images/logos/chefs-mario-and-adrian-a.jpg";
 import AboutPic2 from "../images/logos/chefs-mario-and-adrian-b.jpg";

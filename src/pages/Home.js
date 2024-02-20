@@ -1,3 +1,4 @@
+import React from "react";
 import Hero from "../components/Hero";
 import Special from "../components/Special";
 import brus from "../images/specials/bruschetta.jpg";

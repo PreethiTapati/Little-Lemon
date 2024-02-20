@@ -1,3 +1,4 @@
+import React from "react";
 const ConfirmRes = ({ conf }) => {
   const render = conf;
   return (

@@ -1,4 +1,7 @@
+import React from 'react';
+
 import { NavLink } from "react-router-dom";
+
 import LLLogo from "../images/logos/littleLemonLogo.png";
 
 const style = {

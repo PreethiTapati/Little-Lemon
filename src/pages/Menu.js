@@ -1,4 +1,5 @@
-import {  menu} from "../data";
+import React from "react";
+import { menu } from "../data";
 import Card from "../components/Card";
 
 const Menu = () => {

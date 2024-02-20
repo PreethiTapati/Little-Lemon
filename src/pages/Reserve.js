@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { React, useState, useEffect } from "react";
 import BookingForm from "./BookingForm";
 import ConfirmRes from "./ConfirmRes";
 import AppContext from "../AppContext";

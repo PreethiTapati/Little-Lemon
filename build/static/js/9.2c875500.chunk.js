@@ -1,0 +1,2 @@
+(this.webpackJsonpcapstone=this.webpackJsonpcapstone||[]).push([[9],{54:function(e,a,n){"use strict";n.r(a);var t=n(0),c=n.n(t);a.default=()=>c.a.createElement(c.a.Fragment,null,c.a.createElement("section",{className:"container"},c.a.createElement("h1",null,"404"),c.a.createElement("p",null,"We can't find what you are looking for")))}}]);
+//# sourceMappingURL=9.2c875500.chunk.js.map
